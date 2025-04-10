@@ -46,7 +46,7 @@ function nextSequence(){
 
     $("#" + randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100);        //animation
 
-    var audio = new Audio("/sounds/" + randomChosenColor+ ".mp3")
+    var audio = new Audio("sounds/" + randomChosenColor+ ".mp3")
     audio.play();
 
     
@@ -81,7 +81,7 @@ function checkAnswer(currentLevel){
 }
 
 function playSound(sound){
-    var audio = new Audio("/sounds/"+ sound+ ".mp3");
+    var audio = new Audio("sounds/"+ sound+ ".mp3");
     audio.play();
 }
 
